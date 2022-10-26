@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+  .npmBar {
+    padding: 10px 25px;
+  }
+  .npmLogo {
+    width: 100px;
+  }
+  .searchGlass {
+    width: 40px;
+  }
+  .formSearch {
+    width: 80%;
+    display: flex;
+    align-self: left;
+  }
+  .formSearch i {
+    position: relative;
+    top: 19px;
+    left: 30px;
+}
+  .searchbar{
+    background-color: rgba(0,0,0,.05);
+    border: none;
+    Width: 91%;
+    font-size: 17px;
+    padding: 10px 50px;
+  }
+  .searchbar::placeholder {
+    color:rgba(0,0,0,.5);
+  }
+  .searchButton{
+    background-color: #fb3e44;
+    color: white ;
+    border: 1px solid lightgray;
+    font-size: 21px;
+    padding: 15px 20px;
+  }
+  .loginButtons {
+    padding-left: 20px;
+  }
+  .loginButtons a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .joinButton {
+    border: 1px solid lightgray;
+    border-top: 1px solid black;
+  }
+  .loginButton{
+    padding-right: 0px !important;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 {
+    background-color: rgba(232,217,217,.3);
+  }
+  .section1 h1{
+    font-size: 110px;
+    font-weight: bold;
+  }
+  .section1 article{
+    max-width: 38%;
+    font-size: 27px;
+    text-align: center;
+  }
+  .section1Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 35%;
+    margin: 80px;
+  }
+  .section1Buttons a{
+    text-decoration: none;
+  }
+  .seePlansButton {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seePlansButton a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .joinFreeButton{
+    background-color: white;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .joinFreeButton a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .section2 {
+    height: 800px;
+  }
+  .section2 h2{
+    font-size: 50px;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial Black,Arial Bold,sans-serif; 
+    font-style: bold;
+  }
+  .triangleHexagon{
+    width: 330px;
+    padding-bottom: 40px;
+  }
+
+  .section2 article{
+    max-width: 55%;
+    font-size: 21px;
+    text-align: center;
+  }
+  .section3 {
+   
+  }
+  .section3 h3{
+    color: #fb3e44;
+    font-family: Arial Black,Arial Bold,sans-serif; 
+    margin-top: 12px;
+  }
+  .features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    
+  }
+  .feature{
+    max-width: 17%;
+    font-size: 21px;
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+    align-items: center;
+  }
+  .feature_img{
+    width: 50px;
+    height: 50px;
+  }
+  .createOrgButton{
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 75px;
+
+  }
+  .createOrgButton a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
